@@ -2,13 +2,13 @@ name: Python CI for day5/演習3
 
 on:
   push:
-    branches: [ main ] # またはリポジトリのデフォルトブランチ名
+    branches: [ master ] # またはリポジトリのデフォルトブランチ名
     paths:
       - 'day5/演習3/**'
       - 'day5/requirements.txt'
       - '.github/workflows/ci.yml'
   pull_request:
-    branches: [ main ] # またはリポジトリのデフォルトブランチ名
+    branches: [ master ] # またはリポジトリのデフォルトブランチ名
     paths:
       - 'day5/演習3/**'
       - 'day5/requirements.txt'
